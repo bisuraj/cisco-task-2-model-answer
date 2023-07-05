@@ -3,6 +3,7 @@ import './App.css';
 import Banner from './Banner';
 import Exhibit from './Exhibit';
 import IPDisplay from './IPDisplay';
+import PylonConnector from './pylonconnector';
 
 class App extends Component {
     render() {
@@ -13,7 +14,9 @@ class App extends Component {
                     <Exhibit>
                     <IPDisplay/>
                     </Exhibit>
-                    
+                    <Exhibit name="Pylon Packet Latency">
+                    <PylonConnector />
+                </Exhibit>
                 </div>
             </div>
         );
